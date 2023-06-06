@@ -1,0 +1,293 @@
+body {
+  overflow: hidden;
+}
+
+header {
+  position: absolute;
+  width: 1392px;
+  height: 48px;
+  left: 12px;
+  top: 12px;
+}
+
+nav {
+  position: absolute;
+  width: 235px;
+  height: 1103px;
+  left: 11px;
+  top: 84px;
+  /* background-color: rgb(205, 200, 200); */
+}
+
+section {
+  position: absolute;
+  width: 951px;
+  height: 1001px;
+  left: 257px;
+  top: 148px;
+  background-color: rgb(205, 200, 200);
+}
+
+#top_logo {
+  position: absolute;
+  width: 200px;
+  height: 48px;
+  left: 12px;
+  top: 12px;
+}
+
+#btn_blue {
+  position: absolute;
+  width: 96px;
+  height: 48px;
+  left: 1092px;
+  top: 12px;
+}
+
+#user_image {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 1228px;
+  top: 12px;
+
+
+}
+
+#link_input {
+  position: absolute;
+  width: 816px;
+  height: 48px;
+  left: 252px;
+  top: 12px;
+
+  background: #F5F5F5;
+  border-radius: 8px;
+  border-color: transparent;
+
+}
+
+#모든링크1 {
+  /* 모든 링크 */
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  left: 252px;
+  top: 100px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #1D1D1D;
+}
+
+#ic_layout1 {
+  /* ic_layout1 */
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1136px;
+  top: 98px;
+}
+
+#ic_layout2 {
+  /* ic_layout2 */
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  left: 1164px;
+  top: 95px;
+}
+
+#내폴더 {
+  /* 내 폴더 */
+  position: absolute;
+  width: 60px;
+  height: 20px;
+  left: 12px;
+  top: 18px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #1D1D1D;
+}
+
+#cre_folder {
+  /* cre_folder */
+  position: absolute;
+  width: 216px;
+  height: 40px;
+  left: 9px;
+  top: 54px;
+
+  background: #FFFFFF;
+  border-radius: 8px;
+  border-color: whitesmoke;
+  /* 구별을 쉽게하기 위해 whitesmoke color 임시사용 */
+}
+
+#폴더생성 {
+  position: absolute;
+  width: 62px;
+  height: 16px;
+  left: 10px;
+  top: 10px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #1D1D1D;
+}
+
+#ic_plus {
+  position: absolute;
+  left: 180px;
+  top: 7px;
+}
+
+#선택영역 {
+  /* 선택영역 */
+  position: absolute;
+  width: 216px;
+  height: 40px;
+  left: 12px;
+  top: 174px;
+
+  background: #F0F6FF;
+  border-radius: 8px;
+}
+
+#open_folder {
+  /* open_folder */
+  position: absolute;
+  width: 216px;
+  height: 40px;
+  left: 9px;
+  top: 111px;
+
+  background: #F0F6FF;
+  border-radius: 8px;
+  border-color: whitesmoke;
+
+}
+
+#모든링크 {
+  /* 모든 링크 */
+
+  position: absolute;
+  width: 61px;
+  height: 16px;
+  left: 49px;
+  top: 11px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #4289F3;
+}
+
+#ic_folders {
+  /* ic_folders */
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 15px;
+  top: 5px;
+}
+
+#folder_default {
+  position: absolute;
+  width: 216px;
+  height: 44px;
+  left: 12px;
+  top: 216px;
+}
+
+
+
+#items {
+  display: block;
+  position: relative;
+  width: 216px;
+  height: 162px;
+  left: 0px;
+  top: 7px;
+  margin: 7px;
+}
+
+#items_image {
+  position: absolute;
+  width: 216px;
+  height: 162px;
+  left: 0px;
+  top: 7px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+#items_section {
+  position: absolute;
+  width: 936px;
+  height: 600px;
+  left: 278px;
+  top: 174px;
+  overflow: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: white;
+}
+
+#items_section::-webkit-scrollbar {
+
+  display: none;
+  scroll-behavior: smooth;
+}
+
+
+/* 사진 높이 108px */
+
+#items_content {
+  position: absolute;
+  top: 100%;
+  width: 216px;
+  height: 54px;
+  left: 0px;
+  top: 115px;
+  background: #F5F5F5;
+  border-radius: 0px 0px 8px 8px;
+}
+
+input::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+  /* g/light */
+
+  color: #A1A1A1;
+}
+
+#link_list {
+  position: absolute;
+  width: 216px;
+  height: 44px;
+  left: 12px;
+  top: 260px;
+}
